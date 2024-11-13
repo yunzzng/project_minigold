@@ -1,0 +1,52 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    line-height: 1.6;
+}
+.screen_out {
+    text-indent: -9999px;
+    position: absolute;
+    left: -9999px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+
+/* 공통 */
+h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h4 {
+    margin-bottom: 20px;
+}
+p, span {
+    margin-bottom: 30px;
+}
+.sale span{
+    font-weight: bold;
+}
+.button {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}

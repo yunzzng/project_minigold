@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* 768 이상 */
+
+@media screen and (min-width:768px)  {
+    .container {
+        width: 88.54%;
+    }
+
+    /* text */
+    h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    strong{
+        font-size: 24px;
+    }
+    p, span, a {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    /* Header */
+    header .logo h1 a{
+        width: 210px;
+        height: 70px;
+    }
+    .gnb > li > a{
+        font-size: 24px;;
+    }
+    .gnb > li > ul > li > a{
+        font-size: 18px;
+    }
+
+    /* Menu */
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        top: 20px;
+    }
+
+    /* Visual */
+    .visual {
+        height: 1000px;
+    }
+
+    /* Brand */
+    .slide_img1, .slide_img2, .slide_img3 {
+        height: 500px;
+    }
+
+    /* MD's Pick */
+    .md-pick-item .main-img, .md-pick-item-img1, .md-pick-item-img2  {
+        height: 500px;
+    }
+    .text {
+        margin-top: 70px;
+    }
+    .text h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .text strong{
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .side-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .md-pick-item {
+        flex: 1;
+    }
+
+    /* Shop */
+    .shop-image .shop-img1, .shop-image .shop-img2, .shop-image .shop-img3 {
+        height: 400px;
+    }
+
+    /* Sale */
+    .banner {
+        height: 500px;
+    }
+
+    /* Product */
+    .product-img {
+        height: 500px;
+    }
+    .product-img1, .product-img2, .product-img3, .product-img4, .product-img5, .product-img6, .product-img7, .product-img8 {
+        height: 500px;
+    }
+
+    /* Community */
+    .community_img{
+        height: 600px;
+    }
+
+    /* Footer */
+    .footer-logo{
+        font-size: 40px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+}

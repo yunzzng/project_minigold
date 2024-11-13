@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 1650 이상 */
+
+@media screen and (min-width:1650px)  {
+    .container {
+        width: 1596px;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+    }    
+
+    /* text */
+    h2 {            
+        font-size: 34px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    strong{
+        font-size: 30px;
+    }
+    p, span {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    /* Header */
+    header .logo h1 a{
+        width: 270px;
+        height: 90px;
+    }
+
+    /* Visual */
+    .visual {
+        height: 1200px;
+    }
+    
+    /* Brand */
+    .slide_img1, .slide_img2, .slide_img3 {
+        height: 600px;
+    }
+    
+    /* MD's Pick */
+    .md-pick-item .main-img {
+        height: 900px; 
+    }
+    .md-pick-item{
+        margin-bottom: 20px;
+    }
+    .md-pick-item-img1, .md-pick-item-img2{
+        height: 440px;
+    }
+    .popup{
+        height: 900px;
+    }
+    .text{
+        margin-top: 300px;
+    }
+    
+    /* Shop */
+    .shop-item{
+        height: 600px;
+    }
+    .shop-image .shop-img1, .shop-image .shop-img2, .shop-image .shop-img3 {
+        height: 400px;
+    }
+
+    /* Sale */
+    .banner {
+        height: 500px;
+    }
+    
+    /* Product */
+    .product-img {
+        height: 500px;
+    }
+    .product-img1, .product-img2, .product-img3, .product-img4, .product-img5, .product-img6, .product-img7, .product-img8 {
+        height: 500px;
+    }
+    
+    /* Footer */
+    .footer-logo{
+        font-size: 40px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+}
